@@ -1,6 +1,7 @@
 
 import './App.css'
 import ControlledForm from './ControlledForm'
+import ControlledFromTwo from './ControlledFromTwo'
 
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
   return (
     <div className="App">
      
-    <h2>React Forms</h2>
-    <ControlledForm />
+    {/* <h2>React Forms</h2> */}
+    <ControlledForm/>
+    <ControlledFromTwo />
     
     </div>
   )
